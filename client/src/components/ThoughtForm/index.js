@@ -30,7 +30,7 @@ const ThoughtForm = () => {
       setCharacterCount(event.target.value.length);
     }
   };
-  const handleFormSubmit = async event => {
+  const handleFormSubmit = async (event) => {
     event.preventDefault();
     try {
       await addThought({
